@@ -1,0 +1,39 @@
+
+body {
+  margin: 0;
+  font-family: 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  background: none !important;
+ 
+  user-select: none;
+
+}
+#root {
+  height: 100%;
+
+  
+}
+
+.custom-shape-divider-top-1681352320 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1681352320 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 110px;
+}
+
+.custom-shape-divider-top-1681352320 .shape-fill {
+  fill: #FFFFFF;
+}

@@ -1,0 +1,38 @@
+{
+  "homepage":"http://imgabo.github.io/casonaalfa",
+  "name": "mantine-vite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "predeploy": "tsc && vite build",
+    "deploy": "gh-pages -d build",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@mantine/carousel": "^6.0.7",
+    "@mantine/core": "^6.0.6",
+    "@mantine/hooks": "^6.0.6",
+    "@tabler/icons-react": "^2.15.0",
+    "embla-carousel-react": "^7.1.0",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.10.0",
+    "react-transition-group": "^4.4.5",
+    "sort-by": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@types/react-transition-group": "^4.4.5",
+    "@vitejs/plugin-react": "^3.1.0",
+    "gh-pages": "^5.0.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0"
+  }
+}
