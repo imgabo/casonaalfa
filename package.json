@@ -1,12 +1,12 @@
 {
-  "homepage":"http://imgabo.github.io/casonaalfa",
+  "homepage":".",
   "name": "mantine-vite",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "tsc && vite build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
